@@ -21,7 +21,10 @@
 
 
   <center><body>
-    <div style = "position:absolute; top:50px; left:400px;">
+    <div style = "position:absolute;
+     top:50px;
+     width:100%;
+     vertical-align: center;">
       <header><h1 style="font-size:6vw; color:#4CAF50;">My Hobbies</h1></header>
     </div>
   </body>
@@ -60,6 +63,10 @@ a:active {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+#sports {
+  fixed.position: 1200px
+}
 
   .topnav {
     overflow: hidden;
@@ -100,7 +107,10 @@ a:active {
 
 
   <center><body>
-     <div style = "position:absolute; top:270px; left:370px;">
+     <div style = "position:absolute;
+      top:270px;
+      width:100%;
+      vertical-align: center;">
        <br>
        <br>
       <h4 style="color:white;"> I enjoy trying out new things which is why I have </h4>
@@ -117,33 +127,54 @@ a:active {
 
 
   <body>
-      <div style = "position:absolute; top:550px; right:900px;">
+      <div id="sports" style = "position:absolute;
+      top:550px;
+      width:30%;
+      vertical-align:left;">
       <img src="https://sportshub.cbsistatic.com/i/r/2020/03/11/e0d67d95-7d03-4c15-98a1-b24281b37c6d/thumbnail/640x360/8f45a9712296c4759dc3f9575c9e21e2/untitled-design-93.jpg" alt="Images/basketball-1" title="aRt" style="max-width:90%;height:auto;">
     </div>
   </body>
 
   <body>
-      <div style = "position:absolute; top:180px; left:900px;">
-<iframe width="321" height="255" src="https://www.youtube.com/embed/bapfkDpaSGw"></iframe>
+      <div style = "position:absolute;
+      top:200px;
+      float:right;">
+<iframe width="321" height="255" src="https://www.youtube.com/embed/bapfkDpaSGw" class="floatRight"></iframe>
+<style>
+.floatRight{
+  float:right;
+  margin-left:980px;
+  width:25%;
+}
+      </style>
       </div>
     </body>
 
 
-  <footer>
-        <div style = "position:absolute; color:#4CAF50; font-size:1vw; left:350px; top:900px;">
-        <style="background:black">
-        <blockquote cite="https://www.brainyquote.com/quotes/bill_gates_384628">
-          <!-- Date Accessed 20201120-->
-        </blockquote>
-        <p>
-          <strong>"The Internet is becoming the town square for the global village of tomorrow"</strong>
-          <em><a href="https://www.brainyquote.com/quotes/bill_gates_384628" target="_blank">
-             - Bill Gates</a>
-          </em>
-        </p>
-        <p>&copy Ebrar Ejder, powered by Ebrar-E in GitHub</p>
-        </div>
-      </footer>
+    <footer>
+           <div id="footer" style = " color:#4CAF50; font-size:1vw;">
+           <style="background:black">
+           <blockquote cite="https://www.brainyquote.com/quotes/bill_gates_384628">
+             <!-- Date Accessed 20201120-->
+           </blockquote>
+           <p>
+             <strong>"The Internet is becoming the town square for the global village of tomorrow"</strong>
+             <em><a href="https://www.brainyquote.com/quotes/bill_gates_384628" target="_blank">
+                - Bill Gates</a>
+             </em>
+           </p>
+           <p>&copy Ebrar Ejder, powered by Ebrar-E in GitHub</p>
+           </div>
+         </footer>
+         <style>
+   footer{
+      top:800px;
+  vertical-align: middle;
+  text-align: center;
+   position: absolute;
+   width: 100%;
+   }
 
+   </style>
 
 </html>
